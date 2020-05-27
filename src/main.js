@@ -5,6 +5,8 @@ const xObject = JSON.parse(x); //字符串转对象，对应stringify
 const hashMap = xObject || [
   { logo: "A", url: "https://www.acfun.cn" },
   { logo: "B", url: "https://www.bilibili.com" },
+  { logo: "C", url: "https://www.ctrip.com" },
+  { logo: "D", url: "https://dilidili.online/" },
 ];
 const simplifyUrl = (url) => {
   return url.replace("https://", "").replace("http://", "").replace(/\/.*/, ""); //删除/开头的内容
